@@ -8,7 +8,6 @@ error_reporting(E_ERROR | E_PARSE);
 function getTelegramChannelConfigs($username)
 {
     $sourceArray = explode(",", $username);
-    $emptySource = file_get_contents("empty.conf");
     $mix = "";
     foreach ($sourceArray as $source) {
         echo "@{$source} => PROGRESS: 0%\n";
@@ -58,7 +57,7 @@ function getTelegramChannelConfigs($username)
             }
         }
         
-        if (!empty($$source) || $$source !== "" || !empty(explode("\n", $$source)[0])) {
+        if (!empty(explode("\n", $$source))) {
             $configsSource =
                 generateUpdateTime() . $$source . generateEndofConfiguration();
             file_put_contents(
@@ -78,16 +77,20 @@ function getTelegramChannelConfigs($username)
             echo "@{$source} => PROGRESS: 100%\n";
         } else {
             $username = str_replace($source . ",", "", $username);
+            file_put_contents("source.conf", $username);
+            
+            $emptySource = file_get_contents("empty.conf");
             $emptyArray = explode(",", $emptySource);
             if (!in_array($source, $emptyArray)) {
                 $emptyArray[] = $source;
                 $emptySource = implode(",", $emptyArray);
             }
+            file_put_contents("empty.conf", $emptySource);
+
             removeFileInDirectory("subscription/source/normal/", $source);
             removeFileInDirectory("subscription/source/base64/", $source);
             removeFileInDirectory("subscription/source/hiddify/", $source);
-            file_put_contents("source.conf", $username);
-            file_put_contents("empty.conf", $emptySource);
+            
             echo "@{$source} => NO CONFIG FOUND, I REMOVED CHANNEL!\n";
         }
     }
@@ -102,7 +105,7 @@ function getTelegramChannelConfigs($username)
         "hysteria2",
     ];
     foreach ($types as $filename) {
-        if (!empty($$filename) || $$filename !== "" || !empty(explode("\n", $$filename)[0])) {
+        if (!empty(explode("\n", $$filename))) {
             $configsType =
                 generateUpdateTime() .
                 $$filename .
@@ -693,38 +696,24 @@ function getNetwork($config, $type)
 
 function getTLS($config, $type)
 {
-    if ($type === "vmess" && $config["tls"] === "tls") {
-        return "TLS";
-    }
-    if ($type === "vmess" && $config["tls"] === "") {
-        return "N/A";
-    }
-    if (
-        in_array($type, ["vless", "trojan"]) &&
-        $config["params"]["security"] === "tls"
-    ) {
+    if (($type === "vmess" && $config["tls"] === "tls") || $type === "ss") {
         return "TLS";
     }
     if (
-        in_array($type, ["vless", "trojan"]) &&
-        $config["params"]["security"] === "none"
+        ($type === "vmess" && $config["tls"] === "") ||
+        (in_array($type, ["vless", "trojan"]) &&
+            $config["params"]["security"] === "tls") ||
+        (in_array($type, ["vless", "trojan"]) &&
+            $config["params"]["security"] === "none") ||
+        (in_array($type, ["vless", "trojan"]) &&
+            empty($config["params"]["security"])) ||
+        in_array($type, ["tuic", "hysteria", "hysteria2", "hy2"])
     ) {
         return "N/A";
-    }
-    if (
-        in_array($type, ["vless", "trojan"]) &&
-        empty($config["params"]["security"])
-    ) {
-        return "N/A";
-    }
-    if (in_array($type, ["tuic", "hysteria", "hysteria2", "hy2"])) {
-        return "N/A";
-    }
-    if ($type === "ss") {
-        return "TCP";
     }
     return null;
 }
+
 
 function isEncrypted($config, $type)
 {
@@ -811,7 +800,7 @@ function sendMessage($botToken, $chatId, $message, $parse_mode, $keyboard)
 
     curl_close($curl);
 
-    echo $response;
+    echo /** @scrutinizer ignore-type */ $response;
 }
 
 function generateHiddifyTags($type)
