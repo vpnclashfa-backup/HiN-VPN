@@ -56,7 +56,7 @@ function getTelegramChannelConfigs($username)
                 }
             }
         }
-        
+
         if (!empty(explode("\n", $$source))) {
             $configsSource =
                 generateUpdateTime() . $$source . generateEndofConfiguration();
@@ -78,7 +78,7 @@ function getTelegramChannelConfigs($username)
         } else {
             $username = str_replace($source . ",", "", $username);
             file_put_contents("source.conf", $username);
-            
+
             $emptySource = file_get_contents("empty.conf");
             $emptyArray = explode(",", $emptySource);
             if (!in_array($source, $emptyArray)) {
@@ -90,7 +90,7 @@ function getTelegramChannelConfigs($username)
             removeFileInDirectory("subscription/source/normal/", $source);
             removeFileInDirectory("subscription/source/base64/", $source);
             removeFileInDirectory("subscription/source/hiddify/", $source);
-            
+
             echo "@{$source} => NO CONFIG FOUND, I REMOVED CHANNEL!\n";
         }
     }
@@ -372,7 +372,7 @@ function convertArrays()
     if (empty($arrays)) {
         return $result;
     }
-    
+
     $count = count($arrays[0]);
 
     for ($i = 0; $i < $count; $i++) {
@@ -927,15 +927,15 @@ getTelegramChannelConfigs($source);
 
 $normals = addStringToBeginning(
     listFilesInDirectory("subscription/normal"),
-    "https://raw.githubusercontent.com/coldwater-10/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/"
 );
 $base64 = addStringToBeginning(
     listFilesInDirectory("subscription/base64"),
-    "https://raw.githubusercontent.com/coldwater-10/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/"
 );
 $hiddify = addStringToBeginning(
     listFilesInDirectory("subscription/hiddify"),
-    "https://raw.githubusercontent.com/coldwater-10/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/"
 );
 $protocolColumn = getFileNamesInDirectory(
     listFilesInDirectory("subscription/normal")
@@ -947,15 +947,15 @@ $cells1Array = convertArrays($protocolColumn, $normals, $base64, $hiddify);
 
 $sourceNormals = addStringToBeginning(
     listFilesInDirectory("subscription/source/normal"),
-    "https://raw.githubusercontent.com/coldwater-10/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/"
 );
 $sourceBase64 = addStringToBeginning(
     listFilesInDirectory("subscription/source/base64"),
-    "https://raw.githubusercontent.com/coldwater-10/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/"
 );
 $sourceHiddify = addStringToBeginning(
     listFilesInDirectory("subscription/source/hiddify"),
-    "https://raw.githubusercontent.com/coldwater-10/HiN-VPN/main/"
+    "https://raw.githubusercontent.com/10ium/HiN-VPN/main/"
 );
 $sourcesColumn = getFileNamesInDirectory(
     listFilesInDirectory("subscription/source/normal")
@@ -1001,7 +1001,7 @@ $keyboard = [
         [
             "text" => "🚹 گیتهاب HiN VPN 🚹",
             "url" =>
-                "https://github.com/coldwater-10/HiN-VPN/blob/main/README.md",
+                "https://github.com/10ium/HiN-VPN/blob/main/README.md",
         ],
     ],
 ];
