@@ -48,6 +48,7 @@ Below is a table that shows the generated subscription links from each source, p
 | DirectVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/DirectVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/DirectVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/DirectVPN |
 | BegzarVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/BegzarVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/BegzarVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/BegzarVPN |
 | PrivateVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/PrivateVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/PrivateVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/PrivateVPN |
+| vpnz4 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/vpnz4 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/vpnz4 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/vpnz4 |
 | ShadowProxy66 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/ShadowProxy66 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/ShadowProxy66 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/ShadowProxy66 |
 
     
