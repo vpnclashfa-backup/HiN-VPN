@@ -39,6 +39,7 @@ Below is a table that shows the generated subscription links from each source, p
     
 | Source | Normal | Base64 | Hiddify |
 | ------ | ------ | ------ | ------- |
+| KevinZakarian | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/KevinZakarian | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/KevinZakarian | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/KevinZakarian |
 | ProxyDaemi | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/ProxyDaemi | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/ProxyDaemi | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/ProxyDaemi |
 | customv2ray | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/customv2ray | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/customv2ray | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/customv2ray |
 | SOSkeyNET | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/SOSkeyNET | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/SOSkeyNET | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/SOSkeyNET |
@@ -49,6 +50,7 @@ Below is a table that shows the generated subscription links from each source, p
 | BegzarVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/BegzarVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/BegzarVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/BegzarVPN |
 | PrivateVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/PrivateVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/PrivateVPN | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/PrivateVPN |
 | vpnz4 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/vpnz4 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/vpnz4 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/vpnz4 |
+| asrnovin_ir | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/asrnovin_ir | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/asrnovin_ir | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/asrnovin_ir |
 | ShadowProxy66 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/ShadowProxy66 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/ShadowProxy66 | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/ShadowProxy66 |
 
     
