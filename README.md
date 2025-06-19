@@ -39,12 +39,13 @@ Below is a table that shows the generated subscription links from each source, p
     
 | Source | Normal | Base64 | Hiddify |
 | ------ | ------ | ------ | ------- |
+| Prooofsor | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/Prooofsor | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/Prooofsor | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/Prooofsor |
 | freeconfigsplus | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/freeconfigsplus | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/freeconfigsplus | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/KevinZakarian |
 | AHWAZIGAMINGSHOP | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/AHWAZIGAMINGSHOP | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/AHWAZIGAMINGSHOP | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/ProxyDaemi |
 | VPN_SOLVE | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/VPN_SOLVE | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/VPN_SOLVE | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/customv2ray |
 | SOSkeyNET | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/SOSkeyNET | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/SOSkeyNET | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/freeconfigsplus |
 | configfa | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/configfa | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/configfa | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/AHWAZIGAMINGSHOP |
-| Prooofsor،mrsoulb | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/Prooofsor،mrsoulb | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/Prooofsor،mrsoulb | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/VPN_SOLVE |
+| mrsoulb | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/mrsoulb | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/mrsoulb | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/VPN_SOLVE |
 | VPN4EVERYONE | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/normal/VPN4EVERYONE | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/base64/VPN4EVERYONE | https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/source/hiddify/SOSkeyNET |
 
     
